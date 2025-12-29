@@ -78,6 +78,9 @@ This repository provides a Python implementation (`TPEPAnalyzer`) to calculate t
 
 ### Installation
 
+<img width="904" height="673" alt="Screenshot 2025-12-29 at 2 04 32 PM" src="https://github.com/user-attachments/assets/0043acbb-930d-4603-b5ad-73d29292b601" />
+
+
 ```bash
 git clone [https://github.com/your-username/tpep-theory.git](https://github.com/your-username/tpep-theory.git)
 cd tpep-theory
