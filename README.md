@@ -82,3 +82,18 @@ This repository provides a Python implementation (`TPEPAnalyzer`) to calculate t
 git clone [https://github.com/your-username/tpep-theory.git](https://github.com/your-username/tpep-theory.git)
 cd tpep-theory
 pip install -r requirements.txt
+
+from tpep_theory import TPEPAnalyzer
+
+# 1. Analyze a known Even Perfect Number (8128)
+epn = TPEPAnalyzer(8128)
+print(epn.report())
+# Result: TPEP Ratio approaches 4.0 -> STABLE
+
+# 2. Analyze an Odd Abundant Number (945)
+opn_candidate = TPEPAnalyzer(945)
+print(opn_candidate.report())
+# Result: TPEP Ratio diverges from 4.0 -> UNSTABLE
+
+http://www.apache.org/licenses/LICENSE-2.0
+```
